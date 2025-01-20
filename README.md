@@ -32,16 +32,38 @@ npm run bot
 
 [Halaman generator expressjs](https://expressjs.com/en/starter/generator.html)
 
+### menjalankan express gemerator
+
+```
 npx express --view=ejs
 npm install
 npm audit fix --force
 npm start
+```
 
+### menginstall modul mysql dan sequelize
+
+```
 npm install mysql2 --save
 npm install sequelize sequelize-cli --save
+```
+
+### init sequelize (orm)
+
+```
 npx sequelize init
+```
+
+### embuh
+
+```
 npx sequelize migration:create --name create-products-table
 npx sequelize db:migrate
 npx sequelize db:migrate:undo ==> rollback
+```
 
-# npm install fastest-validator --save
+### install modul fastest-validator
+
+```
+npm install fastest-validator --save
+```
