@@ -58,11 +58,18 @@ npx sequelize init
 
 ```
 npx sequelize migration:create --name create-products-table
+```
+
+### sequelize membuat tabel atau menghapus tabel
+
+```
 npx sequelize db:migrate
 npx sequelize db:migrate:undo ==> rollback
 ```
 
 ### install modul fastest-validator
+
+Note : untuk memvalidasi input fields dari body
 
 ```
 npm install fastest-validator --save
