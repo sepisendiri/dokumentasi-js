@@ -8,18 +8,29 @@
 npm init -y
 ```
 
-edit file package.json
+### edit file package.json
+
+```
 "scripts": {
 "bot": "node main.js"
 },
+```
 
+### contoh menginstall modul
+
+```
 npm i node-telegram-bot-api
 sudo npm i nodemon -g
 npx puppeteer browsers install chrome
+```
 
+### menjalankan skrip berdasarkan package json
+
+```
 npm run bot
+```
 
-https://expressjs.com/en/starter/generator.html
+[Halaman generator expressjs](https://expressjs.com/en/starter/generator.html)
 
 npx express --view=ejs
 npm install
