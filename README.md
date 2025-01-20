@@ -1,8 +1,12 @@
 # Dokumentasi langkah-langkah javascript
 
-https://www.npmjs.com/
+[Halaman npm](https://www.npmjs.com/)
 
+### init npm
+
+```
 npm init -y
+```
 
 edit file package.json
 "scripts": {
